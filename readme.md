@@ -65,5 +65,3 @@ He usado un git reflog para encontrar el id del commit en el que puse el título
 He usado un git reset (*id del commit*) para volver a ese punto.
 
 He usado un git restore (*archivo*) para restaurar el archivo git nuestro.
-
-He recuperado las ramas con varios git checkouts.
