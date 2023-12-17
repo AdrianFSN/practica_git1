@@ -1,6 +1,6 @@
 # Ejercicio 1 Git. Preguntas:
 ## ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-He utilizado git reset –hard HEAD~1.
+He utilizado git reset --hard HEAD~1.
 
 Porque necesitaba deshacer los cambios tanto en el grafo como en el Working Copy. Además, podía retroceder desde la rama Styled a HEAD~1 sin problemas, porque esa rama no había avanzado más padres en la línea de commits.
 
@@ -23,7 +23,7 @@ Sí. Porque en este caso el merge es not fast forward y los cambios en el conten
 No ha causado ningún conflicto porque ha vuelto a ser un merge fast forward en el que la rama styled tenía acceso a todos los padres anteriores.
 
 ## ¿Qué comando o comandos utilizaste en el paso 25?
-He utilizado git log –graph
+He utilizado git log --graph
 
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 Sí, porque la rama title tenía acceso al padre de la rama main.
@@ -57,7 +57,7 @@ He empleado git merge title para repetir el merge anterior y comprobar que se po
 ## ¿Qué comando o comandos usaste en el paso 32?
 He usado git log para encontrar el id del commit inicial.
 
-He utilizado git reset–hard (*id del commit*) para devolverlo todo al commit inicial.
+He utilizado git reset --hard (*id del commit*) para devolverlo todo al commit inicial.
 
 ## ¿Qué comando o comandos usaste en el punto 33?
 He usado un git reflog para encontrar el id del commit en el que puse el título al archivo git nuestro.
